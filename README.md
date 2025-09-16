@@ -150,11 +150,72 @@ docker push santiagoarteaga/springdocker-demo:latest
 ```
 ---
 
-<img width="518" height="159" alt="image" src="https://github.com/user-attachments/assets/ed9ac3e4-0a7d-4342-8125-5c2d76ef6cdd" />
-<img width="602" height="150" alt="image" src="https://github.com/user-attachments/assets/149e16b0-1e05-4750-9e23-6937cb7256ab" />
-<img width="649" height="297" alt="image" src="https://github.com/user-attachments/assets/134af9ec-249e-4602-bd1e-612e9021f35e" />
-<img width="604" height="290" alt="image" src="https://github.com/user-attachments/assets/dd68d476-1b7a-499f-be18-448a974913a1" />
+## 📸 Evidencias del proceso
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ed9ac3e4-0a7d-4342-8125-5c2d76ef6cdd" width="350" height="200">
+  <img src="https://github.com/user-attachments/assets/149e16b0-1e05-4750-9e23-6937cb7256ab" width="350" height="200">
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/134af9ec-249e-4602-bd1e-612e9021f35e" width="350" height="200">
+  <img src="https://github.com/user-attachments/assets/dd68d476-1b7a-499f-be18-448a974913a1" width="350" height="200">
+</p>
+
+### 🐳 Tercera parte: Subir la imagen a Docker Hub
+
+1. **Crea una cuenta en [Docker Hub](https://hub.docker.com/)**.  
+2. **Verifica tu correo electrónico** para activar la cuenta.
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/e9c0d62c-267b-4369-9818-34f4e28f7593" alt="Paso 1" height="230" />
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/2dc8510f-6032-417a-9bfc-1ef76a250860" alt="Paso 2" height="230" />
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/0b22feb2-2e75-436a-9ca8-5c2778f52117" alt="Paso 3" height="230" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/61bf9cac-90e6-4e40-aeeb-f53b4e5245cd" alt="Paso 4" height="230" />
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/534ce9c4-016f-4f49-9cd7-703852414ea1" alt="Paso 5" height="230" />
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/7aa89cc3-18eb-432c-86cd-cfa39875c16b" alt="Paso 6" height="230" />
+    </td>
+  </tr>
+</table>
+---
+
+### ☁️ Cuarta parte: Despliegue en AWS
+
+En esta fase se despliega la aplicación en una **instancia EC2 de AWS** y se ejecuta el contenedor Docker publicado en Docker Hub.
+
+#### 1️⃣ Acceso a la máquina virtual
+1. Accede a la **instancia EC2** desde AWS Academy Learner Lab (o tu cuenta de AWS).  
+2. Conéctate por **SSH** usando el terminal que te proporciona la consola.
+
+#### 2️⃣ Instalación de Docker
+Ejecuta los siguientes comandos:
+
+```bash
+# Actualizar paquetes
+sudo yum update -y
+```
+# Instalar Docker
+```bash
+sudo yum install docker
+```
+---
+📸 Evidencias
+<table> <tr> <td align="center"> <img src="https://github.com/user-attachments/assets/552b930d-5be1-45fb-ae93-2c01b2cb5eae" alt="AWS Paso 1" height="210" /> </td> <td align="center"> <img src="https://github.com/user-attachments/assets/6a83b995-e10f-4c2f-9b38-c24441090769" alt="AWS Paso 2" height="210" /> </td> <td align="center"> <img src="https://github.com/user-attachments/assets/83ec2262-e7bf-4e4c-9f86-328b6094553d" alt="AWS Paso 3" height="210" /> </td> </tr> <tr> <td align="center"> <img src="https://github.com/user-attachments/assets/995ce2be-9c60-400b-91dd-05d755bf6108" alt="AWS Paso 4" height="210" /> </td> <td align="center"> <img src="https://github.com/user-attachments/assets/127469ee-da7e-4d20-ab54-6ae142d645fc" alt="AWS Paso 5" height="210" /> </td> <td align="center"> <img src="https://github.com/user-attachments/assets/3fe1c84f-9eab-4204-a50d-ef4198cbff5d" alt="AWS Paso 6" height="210" /> </td> </tr> </table> <p align="center"> <img src="https://github.com/user-attachments/assets/67a16068-95d4-4465-8482-980d9f3d8f5c" alt="Resultado final" height="210" /> </p> ```
 
 
 
-Evidencias:
+
